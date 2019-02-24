@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
     <!--Import Google Icon Font-->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -371,11 +372,17 @@
             <div class="card-panel grey lighten-3">
               <h5>Please fill out this form</h5>
               <div class="input-field">
-                <input type="text" placeholder="Name" />
+                <label for="name">Name</label>
+                <input type="text" placeholder="Name" id="name" />
               </div>
               <div class="input-field">
-                <input type="text" placeholder="Email" />
+                <label for="email">Email</label>
+                <input type="text" placeholder="Email" id="email" />
               </div>
+              <label>
+                <input type="checkbox" class="filled-in" checked="checked" />
+                <span>Filled in</span>
+              </label>
               <div class="input-field">
                 <input type="text" placeholder="Phone" />
               </div>
